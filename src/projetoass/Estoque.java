@@ -15,7 +15,7 @@ public final class Estoque extends Produto {
         public Estoque(){
             ListaProduto = new ArrayList();
         }
-        public Estoque(int codBarras, String nome, double preco, int tamanho , String cor, int qtde){
+        public Estoque(int codBarras, String nome, double preco, String tamanho , String cor, int qtde){
             this.codBarras = codBarras;
             this.preco = preco;
             this.tamanho = tamanho;
@@ -69,11 +69,11 @@ public final class Estoque extends Produto {
         this.preco = preco;
     }
 
-    public int getTamanho() {
+    public String getTamanho() {
         return tamanho;
     }
 
-    public void setTamanho(int tamanho) {
+    public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
     }
    

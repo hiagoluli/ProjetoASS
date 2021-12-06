@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Produto {
     protected String nome;
     protected double preco;
-    protected int tamanho;
+    protected String tamanho;
     protected String cor;
     protected int codBarras; 
     
