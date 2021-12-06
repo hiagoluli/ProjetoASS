@@ -1,13 +1,13 @@
 
-package projetoass;
+package projetoass.Models;
 
 import java.util.ArrayList;
 
 public class Produto {
-    protected String nome;
+    public String nome;
     protected double preco;
-    protected String tamanho;
-    protected String cor;
+    public String tamanho;
+    public String cor;
     protected int codBarras; 
     
     /*

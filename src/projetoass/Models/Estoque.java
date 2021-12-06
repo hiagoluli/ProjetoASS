@@ -1,5 +1,5 @@
 
-package projetoass;
+package projetoass.Models;
 
 import java.util.ArrayList;
 

@@ -3,7 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package projetoass;
+package projetoass.Views;
+import projetoass.Models.Funcionario;
+import projetoass.Models.Fornecedores;
+import projetoass.Models.Estoque;
+import projetoass.Models.Cliente;
+import projetoass.Models.Produto;
+import projetoass.Models.Pedido;
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
 /**
@@ -15,11 +21,13 @@ public class Tela extends javax.swing.JFrame {
     ArrayList<Cliente> ListaCliente; //Cria uma Lista de Clientes
     ArrayList<Estoque> ListaProduto; //Cria uma Lista de Produtos
     ArrayList<Fornecedores> ListaFornecedor;
+    ArrayList<Pedido> ListaPedidos;
     
     String modoFunc;//Variaveis para chamada da funnção "ManipularInterface"
     String modoCliente;
     String modoProdutos;
     String modoFornecedor;
+    String modoPedido;
     
     //Tabela Funcionários
     public void loadTableFunc(){
@@ -1148,7 +1156,7 @@ public class Tela extends javax.swing.JFrame {
                     .addComponent(jLabel21)
                     .addComponent(c_fornecedores_endereco, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel22)
                     .addComponent(c_fornecedores_telefone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(28, 28, 28)

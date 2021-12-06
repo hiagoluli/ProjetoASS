@@ -1,5 +1,8 @@
 
-package projetoass;
+package projetoass.Controllers;
+
+import projetoass.Views.Tela;
+
 public class ProjetoASS {
 
     public static void main(String[] args) {
